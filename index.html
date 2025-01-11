@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madurai Tourism</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav">
+            <ul>
+                <a href="#home"><li>Home</li></a>
+                <a href="#places"><li>Places</li></a>
+                <a href="#intro"><li>Maps</li></a>
+                <a href=""><li>Contact us</li></a>
+            </ul>
+        </div>
+        </div>
+    </div>
+   <div class="header">
+    <img src="./images/madurai.webp" height="300px" width="100%">
+   </div>
+   <div class="home" id="home">
+   <h2>Madurai </h2>
+   <p>Madurai, often referred to as the "City of Temples," is one of the oldest continuously inhabited cities in India, steeped in rich history and cultural heritage. Located in the southern state of Tamil Nadu, it is most famous for the magnificent Meenakshi Amman Temple, a stunning example of Dravidian architecture with intricately carved pillars, vibrant sculptures, and towering gopurams (gateway towers). The city's history dates back over 2,500 years, making it a significant center for Tamil culture, literature, and art. Madurai is not only known for its religious significance but also for its bustling markets, flavorful street food, and traditional silk weaving, offering a perfect blend of ancient traditions and modern life. With its warm hospitality and deep-rooted spiritual aura, Madurai continues to captivate visitors from around the world.</p></div>
+
+   <section class="places" id="places">
+   <h1>Places To visit In Madurai</h1>
+   <div class="container">
+    <div class="cards">
+        <div class="card">
+            <a href="https://en.wikipedia.org/wiki/Meenakshi_Temple"><img src="./images/meenakshi.jpg" height="300px" width="300px" ></a>
+        </div>
+        <div class="card">
+            <a href="https://en.wikipedia.org/wiki/Vandiyur_Mariamman_Teppakulam"><img src="./images/theppakulam.jpg" height="300px" width="300px" ></a>
+        </div>
+        <div class="card">
+            <a href="https://en.wikipedia.org/wiki/Thirumalai_Nayakkar_Mahal"><img src="./images/Tirumal_Naicker_Palace_1.jpg" height="300px" width="300px" ></a>
+        </div>
+        <div class="card">
+            <a href="https://gandhimmm.org/"><img src="./images/gandhi.jpg" height="300px" width="300px" ></a>
+        </div>
+       
+    </div>
+   </div>
+</section>
+   <section class="intro">
+    <h1>Welcome To Madurai</h1>
+    <div class="video-clip">
+        <video controls><source src="./images/video.mp4"></video>
+    </div>
+   </section>
+   <section class="intro2">
+    <h1>People Opinnion About Madurai</h1>
+    <img src="./images/ppl.jpg">
+    <div class="video-clip">
+        <audio controls autoplay>
+            <source src="./images/sample-3s.mp3" >
+        </audio>
+    </div>
+   </section>
+   <section class="contact">
+   <h1>Submit Your Review</h1>
+   <form action="/submit-review">
+       <label for="name">Your Name:</label><br>
+       <input type="text" id="name" name="name" required><br><br>
+
+       <label for="email">Your Email:</label><br>
+       <input type="email" id="email" name="email" required><br><br>
+
+       <label for="rating">Rating (1 to 5):</label><br>
+       <select id="rating" name="rating" required>
+           <option value="1">1 - Poor</option>
+           <option value="2">2 - Fair</option>
+           <option value="3">3 - Good</option>
+           <option value="4">4 - Very Good</option>
+           <option value="5">5 - Excellent</option>
+       </select><br><br>
+
+       <label for="review">Your Review:</label><br>
+       <textarea id="review" name="review" rows="4" cols="50" placeholder="Share your experience..." required></textarea><br><br>
+
+       <button type="submit">Submit Review</button>
+   </form>
+   </section>
+</body>
+</html>
